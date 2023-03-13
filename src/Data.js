@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
@@ -25,7 +25,7 @@ export const socialIcons = [
   <FaDribbble />,
   <FaInstagram />,
   <FaLinkedin />,
-  <BsMedium />
+  <FaTwitter />
 ]
 
 export const bios = [
@@ -105,22 +105,22 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: '6+',
-    itemName: "Years Of Experience"
+    number: '7+',
+    itemName: "General Years Of Experience"
   },
   {
     id: 2,
-    number: "150+",
+    number: "200+",
     itemName: "Satisfied Customers"
   },
   {
     id: 3,
-    number: "669+",
+    number: "100+",
     itemName: "Designed Items"
   },
   {
     id: 4,
-    number: "117+",
+    number: "80+",
     itemName: "Clients Served"
   }
 ]
@@ -236,16 +236,16 @@ export const contacts = [
   {
     id: 1,
     icon: <FaMapMarkerAlt />,
-    infoText: "16 Road, TharKayTa , Yangon"
+    infoText: "Lagos , Nigeria"
   },
   {
     id: 2,
     icon: <FaPaperPlane />,
-    infoText: "abee02@gmail.com"
+    infoText: "janechidera12@gmail.com"
   },
   {
     id: 3,
     icon: <FaPhoneAlt />,
-    infoText: "+959-883-271-929"
+    infoText: "+2349055016590"
   }
 ]
