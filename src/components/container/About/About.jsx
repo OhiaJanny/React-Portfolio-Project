@@ -4,6 +4,7 @@ import "./About.scss";
 import { motion } from 'framer-motion';
 import { bios } from '../../../Data';
 import portfolio from "../../../assets/portfolio.jpg"
+import resume from "../../../assets/resume.pdf"
 const About = () => {
 
 
@@ -35,7 +36,7 @@ const About = () => {
         >
 
           <p>A scrum Master with 4 years of work experience, A frontend developer with 2 years work experience and a UX/UI Designer 
-            with 3 years of workexperience.</p>
+            with 3 years of work experience.</p>
           {bios.map(bio => {
             return (
               <div className="bio" key={bio.id}>
@@ -44,7 +45,7 @@ const About = () => {
               </div>
             )
           })}
-          <motion.a href='#' download=""
+          <motion.a href={resume} download
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >

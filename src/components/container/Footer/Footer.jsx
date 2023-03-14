@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <motion.div
+    <motion.div href={socialIcons.url}
       initial={{ opacity: 0 }}
       whileInView={{
         opacity:

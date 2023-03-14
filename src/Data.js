@@ -17,14 +17,15 @@ import work11 from "./assets/work11.png";
 import work12 from "./assets/work12.png";
 import work13 from "./assets/work13.png";
 import work14 from "./assets/work14.png";
+import work15 from "./assets/work15.png";
 
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
 export const socialIcons = [
-  <FaDribbble />,
+  <FaDribbble  />,
   <FaInstagram />,
-  <FaLinkedin />,
+  <FaLinkedin href="https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"/>,
   <FaTwitter />
 ]
 
@@ -129,66 +130,91 @@ export const workImages = [
     id: 1,
     img: work1,
     name: "project 1",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny/Wallet-management",
+    eye_url: "https://wallet-management-kt6wi64ue-ohiajanny.vercel.app/"
   },
   {
     id: 2,
     img: work2,
     name: "project 2",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny/FromHome-frontend",
+    eye_url: "https://startling-frangipane-a5d63c.netlify.app/"
   },
   
   {
     id: 3,
     img: work3,
     name: "project 3",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny",
+    eye_url: "https://www.kartlog.co/"
   },
+
+
   {
     id: 7,
     img: work7,
     name: "project 7",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny/ohiajanny.github.io",
+    eye_url: "https://ohiajanny.github.io/index.html#Services"
   },
+
+
   {
     id: 8,
     img: work8,
     name: "project 8",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny/Bootstrap-portfolio",
+    eye_url: "https://ohiajanny.github.io/Bootstrap-portfolio/"
   },
+
   {
     id: 9,
     img: work9,
     name: "project 9",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny/Furniture-Website--Project-1-",
+    eye_url: "https://ohiajanny.github.io/Furniture-Website--Project-1-/"
   },
   
   {
     id: 10,
     img: work10,
     name: "project 10",
-    category: "web"
+    category: "web",
+    github_url:  "https://github.com/OhiaJanny/currencyconverter",
+    eye_url: "https://currencyconverter-sand.vercel.app/"
   },
 
   {
     id: 11,
     img: work11,
     name: "project 11",
-    category: "web"
+    category: "web",
+    github_url: "https://github.com/OhiaJanny/MyReact-App",
+    eye_url: "https://codehokage1.github.io/web1/index.html"
   },
 
   {
     id: 13,
     img: work13,
     name: "project 13",
-    category: "design"
+    category: "design",
+    github_url: "https://www.figma.com/file/ukn835RskEF3m2n31jpczR/Kartlog-Website-Design?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0 ",
+    eye_url: "https://www.kartlog.co/"
   },
 
   {
     id: 14,
     img: work14,
     name: "project 14",
-    category: "design"
+    category: "design",
+    github_url: "https://www.figma.com/file/qmOEYlgG6NF7NAAl0pLAhF/GOM-Hospital?t=hy1NcqgiZoq3Zo1Y-0",
+    eye_url: "https://www.figma.com/file/qmOEYlgG6NF7NAAl0pLAhF/GOM-Hospital?t=hy1NcqgiZoq3Zo1Y-0"
   },
 
 
@@ -196,13 +222,19 @@ export const workImages = [
     id: 4,
     img: work4,
     name: "project 4",
-    category: "app"
+    category: "app",
+    github_url: "https://www.figma.com/file/dS7sCqIkjc8radlZN9hhDu/Trenduu?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0",
+    eye_url: "https://www.figma.com/file/dS7sCqIkjc8radlZN9hhDu/Trenduu?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0"
   },
+
+
   {
     id: 5,
     img: work5,
     name: "project 5",
-    category: 'app'
+    category: 'app',
+    github_url: "https://www.figma.com/file/rAptgw0MkZlO8BikN9HFEf/Triisum-app?t=hy1NcqgiZoq3Zo1Y-0",
+    eye_url: "https://www.figma.com/file/rAptgw0MkZlO8BikN9HFEf/Triisum-app?t=hy1NcqgiZoq3Zo1Y-0"
   },
 
   
@@ -212,16 +244,28 @@ export const workImages = [
     id: 12,
     img: work12,
     name: "project 12",
-    category: 'app'
+    category: 'app',
+    github_url: "https://www.figma.com/file/0jjjnypeOyxWNJdTd9rg1s/Untitled?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0",
+    eye_url: "https://www.figma.com/file/0jjjnypeOyxWNJdTd9rg1s/Untitled?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0"
   },
 
- 
+  {
+    id: 15,
+    img: work15,
+    name: "project 15",
+    category: 'app',
+    github_url: "https://www.figma.com/file/K5vFO2FfrxJKxha6ihDZa4/Untitled?t=hy1NcqgiZoq3Zo1Y-0",
+    eye_url: "https://www.figma.com/file/K5vFO2FfrxJKxha6ihDZa4/Untitled?t=hy1NcqgiZoq3Zo1Y-0"
+  },
+
 
   {
     id: 6,
     img: work6,
     name: "project 6",
-    category: "design"
+    category: "design",
+    github_url: "https://www.figma.com/file/GHe477Jz6AUwuy6fpJ4Cyp/Untitled?t=hy1NcqgiZoq3Zo1Y-0",
+    eye_url: "https://www.mercif.com/"
   }
 
   

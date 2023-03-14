@@ -72,7 +72,7 @@ const Portfolio = () => {
                 className='hoverLayer'
               >
                   
-                <motion.a href='#'
+                <motion.a href={work.github_url}
                 whileInView={{scale: [0,1]}}
                  whileHover={{scale: [1, 1.1]}}
                  transition={{duration: 0.3}}
@@ -80,7 +80,7 @@ const Portfolio = () => {
                   <FiGithub />
                 </motion.a>
                   
-                <motion.a href='#'
+                <motion.a href={work.eye_url}
                 whileInView={{scale: [0,1]}}
                  whileHover={{scale: [1, 1.1]}}
                  transition={{duration: 0.3}}
