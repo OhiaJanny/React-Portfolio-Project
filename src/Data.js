@@ -23,10 +23,31 @@ import work15 from "./assets/work15.png";
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
 export const socialIcons = [
-  <FaDribbble  />,
-  <FaInstagram />,
-  <FaLinkedin href="https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"/>,
-  <FaTwitter />
+  {
+   
+   icon: <FaDribbble  />,
+   url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+  },
+  
+  {
+   
+    icon:  <FaInstagram />,
+    url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+   },
+ 
+   {
+    
+    icon:   <FaLinkedin/>,
+    url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+   },
+ 
+   {
+    
+    icon:   <FaTwitter />,
+    url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+   },
+ 
+  
 ]
 
 export const bios = [

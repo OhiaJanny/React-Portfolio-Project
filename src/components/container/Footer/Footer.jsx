@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <motion.div href={socialIcons.url}
+    <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{
         opacity:
@@ -23,9 +23,9 @@ const Footer = () => {
         <div className="social_icons">
             {socialIcons.map((socialIcon, index) => {
             return (
-              <div key={index} >
-                {socialIcon}
-              </div>
+              <a className='social_links_url' href={socialIcon.url} target="_blank" rel="noreferrer"  key={index} >
+                {socialIcon.icon}
+              </a>
             )
           })}
           </div>
