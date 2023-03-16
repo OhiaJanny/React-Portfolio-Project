@@ -3,10 +3,22 @@ import "./Contact.scss";
 import { contacts } from '../../../Data';
 import { socialIcons } from '../../../Data';
 import { motion } from 'framer-motion';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import { useState } from 'react';
+
 
 const Contact = () => {
+  
+  const [showModal, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="container" id="contact">
+       { showModal && <Text show={showModal} close={handleClose}/>}
+
       <motion.div
         initial={{opacity: 0}}
         whileInView={{y: [-50, 0], opacity: 1}} 
@@ -65,14 +77,39 @@ const Contact = () => {
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{duration: 0.3}}
-            className="btn"
-          >
-            <a href="#">Send</a>
+            className="btn">
+            <a onClick={handleShow}>Send</a>
+            
           </motion.div>
         </motion.div>
       </div>
     </div>
   )
 }
+
+
+function Text({show, close}) {
+  return (
+    <div
+      className="modal"
+      style={{ display: show ? "block" : "none" }}
+    >
+      <Modal.Dialog>
+        <Modal.Header>
+          <Modal.Title>Modal title</Modal.Title>
+        </Modal.Header>
+
+        <Modal.Body>
+          <p>Modal body text goes here.</p>
+        </Modal.Body>
+
+        <Modal.Footer>
+          <Button onClick={close} variant="secondary">Close</Button>
+        </Modal.Footer>
+      </Modal.Dialog>
+    </div>
+  );
+}
+
 
 export default Contact
