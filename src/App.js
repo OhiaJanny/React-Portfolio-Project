@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
 import About from './components/container/About/About'
 import Contact from './components/container/Contact/Contact'
@@ -8,16 +9,18 @@ import Portfolio from './components/container/Portfolio/Portfolio'
 import Skills from './components/container/Skills/Skills'
 import Navbar from './components/Navbar/Navbar'
 
+
 const App = () => {
   return (
     <div>
-      <Navbar />
+     <Navbar />
       <Home />
       <About />
       <Skills />
       <Portfolio />
       <Contact />
       <Footer />
+
     </div>
   )
 }

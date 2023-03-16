@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaFacebook, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaGithub, FaLinkedin,  FaInstagram, } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
@@ -25,14 +25,14 @@ export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 export const socialIcons = [
   {
    
-   icon: <FaDribbble  />,
-   url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+   icon: <FaGithub  />,
+   url: "https://github.com/OhiaJanny"
   },
   
   {
    
-    icon:  <FaInstagram />,
-    url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+    icon:  <FaFacebook/>,
+    url: "https://www.facebook.com/profile.php?id=100005971664871&mibextid=LQQJ4d"
    },
  
    {
@@ -43,8 +43,8 @@ export const socialIcons = [
  
    {
     
-    icon:   <FaTwitter />,
-    url: "https://www.linkedin.com/in/ohia-jane-chidera-458b39213/"
+    icon:   <FaInstagram />,
+    url: "https://www.facebook.com/profile.php?id=100005971664871&mibextid=LQQJ4d"
    },
  
   
@@ -314,3 +314,4 @@ export const contacts = [
     infoText: "+2349055016590"
   }
 ]
+

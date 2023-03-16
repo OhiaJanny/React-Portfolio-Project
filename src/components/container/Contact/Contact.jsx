@@ -96,11 +96,11 @@ function Text({show, close}) {
     >
       <Modal.Dialog>
         <Modal.Header>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Feedback!</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <p>Modal body text goes here.</p>
+          <p>Your message was sent.</p>
         </Modal.Body>
 
         <Modal.Footer>
