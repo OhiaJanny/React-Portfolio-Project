@@ -32,6 +32,8 @@ Screenshoots of my Portfolio
 ![React App - Google Chrome 3_16_2023 10_49_58 PM (2)](https://user-images.githubusercontent.com/92087695/225761204-cdb9ee74-81a3-4b6a-a6be-221a03ed7aa3.png)
 ![React App - Google Chrome 3_16_2023 10_50_09 PM (2)](https://user-images.githubusercontent.com/92087695/225761314-a5e5cfa5-472f-4c20-b651-e12716950897.png)
 
+Project Template from Yelinko20 https://github.com/yelinko20/react-portfolio
+
 Link to the deployed version: https://react-portfolio-project-alpha.vercel.app/
 
 Link to the GitHub repository: https://github.com/OhiaJanny/React-Portfolio-Project/tree/main
