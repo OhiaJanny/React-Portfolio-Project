@@ -34,5 +34,5 @@ Screenshoots of my Portfolio
 
 Link to the deployed version
 
-Link to the GitHub repository
+Link to the GitHub repository: https://github.com/OhiaJanny/React-Portfolio-Project/tree/main
 
