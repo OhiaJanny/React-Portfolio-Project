@@ -160,7 +160,7 @@ export const workImages = [
     img: work2,
     name: "project 2",
     category: "web",
-    github_url:  "https://github.com/OhiaJanny/FromHome-frontend",
+    github_url:  "https://github.com/OhiaJanny/E-learning-Website-From-Home-",
     eye_url: "https://startling-frangipane-a5d63c.netlify.app/"
   },
   
