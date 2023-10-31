@@ -170,7 +170,7 @@ export const workImages = [
     name: "project 3",
     category: "web",
     github_url:  "https://github.com/OhiaJanny",
-    eye_url: "https://www.kartlog.co/"
+    eye_url: "https://www.behance.net/gallery/181906323/Kartlog-Case-Study"
   },
 
 
@@ -225,8 +225,8 @@ export const workImages = [
     img: work13,
     name: "project 13",
     category: "design",
-    github_url: "https://www.figma.com/file/ukn835RskEF3m2n31jpczR/Kartlog-Website-Design?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0 ",
-    eye_url: "https://www.kartlog.co/"
+    github_url: "https://www.behance.net/gallery/181918261/CELLWISE-CASE-STUDY",
+    eye_url: "https://www.behance.net/gallery/181918261/CELLWISE-CASE-STUDY"
   },
 
   {
@@ -234,8 +234,8 @@ export const workImages = [
     img: work14,
     name: "project 14",
     category: "design",
-    github_url: "https://www.figma.com/file/qmOEYlgG6NF7NAAl0pLAhF/GOM-Hospital?t=hy1NcqgiZoq3Zo1Y-0",
-    eye_url: "https://www.figma.com/file/qmOEYlgG6NF7NAAl0pLAhF/GOM-Hospital?t=hy1NcqgiZoq3Zo1Y-0"
+    github_url: "https://www.behance.net/gallery/179433301/GOM-CASE-STUDY",
+    eye_url: "https://www.behance.net/gallery/179433301/GOM-CASE-STUDY"
   },
 
 
@@ -244,8 +244,8 @@ export const workImages = [
     img: work4,
     name: "project 4",
     category: "app",
-    github_url: "https://www.figma.com/file/dS7sCqIkjc8radlZN9hhDu/Trenduu?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0",
-    eye_url: "https://www.figma.com/file/dS7sCqIkjc8radlZN9hhDu/Trenduu?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0"
+    github_url: "https://www.behance.net/gallery/177327605/Projobmatch-Case-Study",
+    eye_url: "https://www.behance.net/gallery/177327605/Projobmatch-Case-Study"
   },
 
 
@@ -254,8 +254,8 @@ export const workImages = [
     img: work5,
     name: "project 5",
     category: 'app',
-    github_url: "https://www.figma.com/file/rAptgw0MkZlO8BikN9HFEf/Triisum-app?t=hy1NcqgiZoq3Zo1Y-0",
-    eye_url: "https://www.figma.com/file/rAptgw0MkZlO8BikN9HFEf/Triisum-app?t=hy1NcqgiZoq3Zo1Y-0"
+    github_url: "https://github.com/OhiaJanny/CodeEvent",
+    eye_url: "https://hercodeevent.vercel.app/"
   },
 
   
@@ -266,8 +266,8 @@ export const workImages = [
     img: work12,
     name: "project 12",
     category: 'app',
-    github_url: "https://www.figma.com/file/0jjjnypeOyxWNJdTd9rg1s/Untitled?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0",
-    eye_url: "https://www.figma.com/file/0jjjnypeOyxWNJdTd9rg1s/Untitled?node-id=0%3A1&t=hy1NcqgiZoq3Zo1Y-0"
+    github_url: "https://www.behance.net/gallery/181906323/Kartlog-Case-Study",
+    eye_url: "https://www.behance.net/gallery/181906323/Kartlog-Case-Study"
   },
 
   {
@@ -275,8 +275,8 @@ export const workImages = [
     img: work15,
     name: "project 15",
     category: 'app',
-    github_url: "https://www.figma.com/file/K5vFO2FfrxJKxha6ihDZa4/Untitled?t=hy1NcqgiZoq3Zo1Y-0",
-    eye_url: "https://www.figma.com/file/K5vFO2FfrxJKxha6ihDZa4/Untitled?t=hy1NcqgiZoq3Zo1Y-0"
+    github_url: "https://www.behance.net/gallery/175775563/Suretripng-CASE-STUDY",
+    eye_url: "https://www.behance.net/gallery/175775563/Suretripng-CASE-STUDY"
   },
 
 
@@ -285,8 +285,8 @@ export const workImages = [
     img: work6,
     name: "project 6",
     category: "design",
-    github_url: "https://www.figma.com/file/GHe477Jz6AUwuy6fpJ4Cyp/Untitled?t=hy1NcqgiZoq3Zo1Y-0",
-    eye_url: "https://www.mercif.com/"
+    github_url: "https://www.behance.net/gallery/175913919/Touz-Case-Study",
+    eye_url: "https://www.behance.net/gallery/175913919/Touz-Case-Study"
   }
 
   
