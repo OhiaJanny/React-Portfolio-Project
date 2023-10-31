@@ -1,10 +1,10 @@
-Welcome to my Portfolio Project.
+Welcome to my portfolio project.
 
-I used the following technologies
+I used the following technologies:
 
 React,
 
-Navigation using React Router, dynamic rendering, or another third part router.
+Navigation using React Router, dynamic rendering, or another third-party router
 
 My portfolio contains the following information:
 
@@ -26,7 +26,7 @@ Project title
 
 
 
-Screenshoots of my Portfolio
+Screenshots of my Portfolio
 
 ![React App - Google Chrome 3_16_2023 10_49_47 PM (2)](https://user-images.githubusercontent.com/92087695/225761067-0e3b712f-465d-4022-9962-8e1cbf9a1aeb.png)
 ![React App - Google Chrome 3_16_2023 10_49_58 PM (2)](https://user-images.githubusercontent.com/92087695/225761204-cdb9ee74-81a3-4b6a-a6be-221a03ed7aa3.png)
